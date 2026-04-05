@@ -2,7 +2,7 @@
 
 A sleek, animated finance dashboard built with React. Dark by default, highly interactive, and fully responsive.
 
-## ✨ Features
+## Features
 
 ### Core
 - **Dashboard Overview** — Net Balance, Income, Expenses, Savings Rate cards with animated hover effects
@@ -21,7 +21,7 @@ A sleek, animated finance dashboard built with React. Dark by default, highly in
 - **Export to CSV** — Download filtered transactions as a `.csv` file
 - **Toast notifications** — react-hot-toast for all CRUD operations
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # 1. Install dependencies
@@ -33,7 +33,7 @@ npm start
 # 3. Open http://localhost:3000
 ```
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 src/
@@ -52,7 +52,7 @@ src/
 └── index.js
 ```
 
-## 🎭 Role Switching
+## Role Switching
 
 Toggle between **Admin** and **Viewer** in the sidebar bottom panel:
 
@@ -64,7 +64,7 @@ Toggle between **Admin** and **Viewer** in the sidebar bottom panel:
 | Delete transactions | ✅ | ❌ |
 | Export CSV | ✅ | ✅ |
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **React 18** — Functional components + hooks
 - **Recharts** — AreaChart, BarChart, PieChart, RadarChart
@@ -74,11 +74,11 @@ Toggle between **Admin** and **Viewer** in the sidebar bottom panel:
 - **Google Fonts** — Syne (headings) + DM Mono (code/labels) + Inter (body)
 - **CSS Custom Properties** — Full dark/light theming via CSS variables
 
-## 💾 Data Persistence
+## Data Persistence
 
 All state (transactions, filters, role, theme) is persisted to `localStorage` under the key `financeApp_v1`. Your data survives page refreshes.
 
-## 📱 Responsive Breakpoints
+## Responsive Breakpoints
 
 - `> 1100px` — Full 4-column layout
 - `768px–1100px` — 2-column cards, stacked charts
